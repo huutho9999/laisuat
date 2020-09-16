@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let b=+prompt("Nhap so tien mong muon");
+    let a=10000000;
+    for(i=1; ;i++) {
+        a = (a + (a * 0.08));
+        if(a>b){
+            alert("So nam la " + i + " de dat duoc " +b);
+            break;
+        }
+    }
+</script>
+</body>
+</html>
